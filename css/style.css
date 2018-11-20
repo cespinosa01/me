@@ -1,0 +1,121 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-familt: sans-serif;
+  background-color: #d5dce8;
+  text-align: center;
+}
+
+nav a {
+  color: #161616;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a: visited {
+  color: #161616;
+}
+
+nav li: hover {
+  color: #161616;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #e0ebfc;
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: 'Niramit', serif;
+  font-weight: 700;
+  font-style: oblique;
+  font-size: 55px;
+}
+
+.parallax {
+
+    /* The image used */
+    background-image: url("images/IMG_3596.JPG");
+
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+aside {
+  background-color: #9ab2d3;
+  background-repeat: repeat;
+  width: 100%;
+  float: left;
+  /* float is like text wrapping */
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-top: 75px;
+  text-align: center;
+  font-variant: small-caps;
+  font: 'Niramit', serif;
+}
+
+#aside_img {
+  width: 100%;
+  background-size: cover;
+}
+
+article {
+  width: 100%;
+  height: 100%;
+  background-color: #e3ebf9;
+  float: right;
+}
+
+main {
+  background-color: #84a7d8;
+  background-repeat: repeat;
+  width: 100%;
+  height: 300px;
+  float: right;
+  padding: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+footer {
+  background-color: #9ca4af;
+  background-repeat: repeat;
+  font-family: 'Niramit', serif;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+  clear: both;
+  /* clear float below this */
+  padding: 10px;
+}
