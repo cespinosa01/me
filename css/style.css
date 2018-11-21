@@ -52,21 +52,21 @@ header {
   font-style: oblique;
   font-size: 55px;
 }
-
+<img src="IMG_3596.JPG" alt="tree">
+    /*
 .parallax {
 
-    /* The image used */
+The image used
     background-image: url("images/IMG_3596.JPG");
 
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
+    /* Full height 100% */
+    /* Create the parallax scrolling effect
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+*/
 aside {
   background-color: #9ab2d3;
   background-repeat: repeat;
