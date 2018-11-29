@@ -14,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   font-size: 24px;
-  font-familt: sans-serif;
+  font-family: sans-serif;
   background-color: #d5dce8;
   text-align: center;
 }
@@ -93,14 +93,20 @@ aside {
 
 article {
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-color: #e3ebf9;
   float: right;
-  font-size: 55px;
-  font-weight: 400px;
-  font: 'Niramit', sans-serif;
 }
-
+h1{
+  font-size: 25px;
+  font-weight: 50px;
+  font: 'Niramit', serif;
+}
+h2{
+  font-size: 25px;
+  font-weight: 50px;
+  font: 'Niramit', serif;
+}
 main {
   background-color: #84a7d8;
   background-repeat: repeat;
