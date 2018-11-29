@@ -52,33 +52,33 @@ header {
   font-style: oblique;
   font-size: 55px;
 }
-img{
+
+img {
   width: 200px;
   height: 300px;
 }
-    /* The image used */
+
+/* The image used */
 .parallax {
+  background-image: url("images/IMG_3596.JPG");
+  /* Full height 100% */
+  /* Create the parallax scrolling effect float is like text wrapping */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    background-image: url("images/IMG_3596.JPG");
-
-    /* Full height 100% */
-    /* Create the parallax scrolling effect float is like text wrapping */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 aside {
   background-color: #9ab2d3;
   background-repeat: repeat;
   width: 100%;
   float: left;
-
   height: 300px;
   padding: 10px;
   box-sizing: border-box;
   padding-top: 15px;
-  padding-bottom:15px;
+  padding-bottom: 15px;
   text-align: center;
   font-variant: small-caps;
   font: 'Niramit', serif;
@@ -91,22 +91,6 @@ aside {
   padding-bottom: 75px;
 }
 
-article {
-  width: 100%;
-  height: 50%;
-  background-color: #e3ebf9;
-  float: right;
-}
-h1{
-  font-size: 25px;
-  font-weight: 50px;
-  font: 'Niramit', serif;
-}
-h2{
-  font-size: 25px;
-  font-weight: 50px;
-  font: 'Niramit', serif;
-}
 main {
   background-color: #84a7d8;
   background-repeat: repeat;
@@ -116,8 +100,38 @@ main {
   padding: 10px;
   padding: 30px;
   box-sizing: border-box;
-  font-variant: small-caps;
   text-align: center;
+  font-size: 25px;
+}
+
+article {
+  width: 100%;
+  height: 50%;
+  background-color: #e3ebf9;
+  float: left;
+}
+  /*
+#article_img {
+  width: 50%
+  height: 50%
+  float: right;
+}
+*/
+h1 {
+  display: block;
+  font-size: 30px;
+  font-weight: 50px;
+  font: "Niramit", serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h2 {
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: lighter;
+  font: "Niramit", serif;
 }
 
 footer {
