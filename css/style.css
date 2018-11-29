@@ -56,26 +56,24 @@ img{
   width: 200px;
   height: 300px;
 }
-    /*
+    /* The image used */
 .parallax {
 
-The image used
     background-image: url("images/IMG_3596.JPG");
 
     /* Full height 100% */
-    /* Create the parallax scrolling effect
+    /* Create the parallax scrolling effect float is like text wrapping */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-*/
 aside {
   background-color: #9ab2d3;
   background-repeat: repeat;
   width: 100%;
   float: left;
-  /* float is like text wrapping */
+
   height: 300px;
   padding: 10px;
   box-sizing: border-box;
