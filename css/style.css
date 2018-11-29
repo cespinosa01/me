@@ -76,7 +76,7 @@ aside {
   width: 100%;
   float: left;
   /* float is like text wrapping */
-  height: 200px;
+  height: 300px;
   padding: 10px;
   box-sizing: border-box;
   padding-top: 15px;
@@ -90,6 +90,7 @@ aside {
   width: 100%;
   background-size: auto;
   background-position: center;
+  padding-bottom: 75px;
 }
 
 article {
