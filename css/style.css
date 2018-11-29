@@ -76,10 +76,11 @@ aside {
   width: 100%;
   float: left;
   /* float is like text wrapping */
-  height: 300px;
+  height: 200px;
   padding: 10px;
   box-sizing: border-box;
-  padding-top: 25px;
+  padding-top: 15px;
+  padding-bottom:15px;
   text-align: center;
   font-variant: small-caps;
   font: 'Niramit', serif;
@@ -89,7 +90,6 @@ aside {
   width: 100%;
   background-size: auto;
   background-position: center;
-  padding-bottom: 75px;
 }
 
 article {
