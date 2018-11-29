@@ -80,7 +80,6 @@ aside {
   padding: 10px;
   box-sizing: border-box;
   padding-top: 75px;
-  padding-bottom: 75px;
   text-align: center;
   font-variant: small-caps;
   font: 'Niramit', serif;
@@ -89,6 +88,7 @@ aside {
 #aside_img {
   width: 100%;
   background-size: cover;
+  padding-bottom: 75px;
 }
 
 article {
